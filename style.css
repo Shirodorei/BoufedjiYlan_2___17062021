@@ -1,9 +1,9 @@
-.conteneur
+#conteneur
 {
         display: flex;
 }
       
-.conteneur > div 
+#conteneur > div 
 {
         justify-content: space-around;
         align-content: space-between;
