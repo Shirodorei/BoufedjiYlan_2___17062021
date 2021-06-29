@@ -11,3 +11,26 @@ header
         width: 100%;
 
 }
+.Navigation
+{
+        display: flex;
+        flex-direction: row; 
+        text-align: right;
+}         
+.Bordure
+{  
+        background-color: #f2f2f2;
+        opacity: 1;
+        color: black;
+        display: inline-block;
+        border:3px solid #ffff;
+        border-radius: 2px;
+        height: 237px;
+        width: 197px;
+        
+}
+.Hebergement
+{
+        justify-content: space-around;
+        display: flex;
+}
