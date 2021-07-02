@@ -9,28 +9,29 @@ header
 { 
         display: flex;
         width: 100%;
-
+        justify-content: space-between;       
 }
-.Navigation
+        
+
+
+.hebergements
 {
-        display: flex;
-        flex-direction: row; 
-        text-align: right;
-}         
-.Bordure
-{  
         background-color: #f2f2f2;
         opacity: 1;
         color: black;
         display: inline-block;
         border:3px solid #ffff;
-        border-radius: 2px;
-        height: 237px;
-        width: 197px;
-        
-}
-.Hebergement
-{
         justify-content: space-around;
         display: flex;
+}
+button
+{
+        height: 51px;
+        width: 135px;
+        background-color: #0065fc; 
+        border-radius: 14px  14px;
+}
+.coin
+{
+        
 }
